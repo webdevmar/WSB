@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania&display=swap');
+@font-face: {
+    font-family: "Booter- Zero Zero";
+    scr: url("\male_fonts\Booter -\ Zero\ Zero.woff") format ("woff"),
+    url("\male_fonts\Booter - \Zero\ Zero.woff2") format ("woff2");
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #777;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+/*NAGŁÓWEK*/
+
+.main-header {
+    background-image: url("/img/Header_Background.jpg");
+    background-size: hover;
+background-color: rgba(0, 0, 0, .6);
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+/*NAWIGACJA*/
+.nav ul {
+    margin: 0;
+}
+.nav.li {
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover {
+background-color: rgba(255, 255, 255, .3);
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: normal;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+main-nav li {
+    padding: 0 5%;
+}
+/*Nazwa zespołu*/
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    color: white;
+
+}
+.band-name-large {
+    font-size: 5em;
+}
+.content-section {
+    margin 1em;
+
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: 'Metal Mania', cursive;
+    font-weight: normal;
+    color: gray;
+    font-size: 2.5em;
+}
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 100px;
+
+}
+/* STOPKA */
+.main-footer {
+    background-color: aquamarine;
+    color: black;
+    padding: .25em 0;
+}
+.main-footer-container {
+    display: flex;
+
+}
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: right;
+}
+/* przyciski w nav-main */
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .7em;
+    cursor: pointer;
+}
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid teal;
+    background-color: rgba(255,255,255,1);
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: teal;
+    font-size: 2em;
+    border-radius: 100%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.tour-row:last-child {
+    border-bottom: none;
+}
